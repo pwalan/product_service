@@ -9,7 +9,7 @@ public class Product implements Serializable{
     private String name;
 
     //价格，分为单位
-    private int privce;
+    private int price;
 
     //库存量
     private int store;
@@ -20,7 +20,7 @@ public class Product implements Serializable{
     public Product(int id, String name, int privce, int store) {
         this.id = id;
         this.name = name;
-        this.privce = privce;
+        this.price = privce;
         this.store = store;
     }
 
@@ -40,12 +40,12 @@ public class Product implements Serializable{
         this.name = name;
     }
 
-    public int getPrivce() {
-        return privce;
+    public int getPrice() {
+        return price;
     }
 
-    public void setPrivce(int privce) {
-        this.privce = privce;
+    public void setPrice(int price) {
+        this.price = price;
     }
 
     public int getStore() {
