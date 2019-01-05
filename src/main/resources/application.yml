@@ -9,3 +9,5 @@ eureka:
 spring:
   application:
     name: product-service
+  zipkin:
+      base-url: http://139.199.122.209:9411
