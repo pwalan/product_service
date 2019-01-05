@@ -12,3 +12,4 @@ spring:
         service-id: config-server
         enabled: true
       profile: dev
+
